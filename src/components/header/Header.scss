@@ -1,0 +1,17 @@
+.header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    border-bottom: 1px solid #ccc;
+    
+}
+
+.dropdown-menu {
+    min-width: 9rem !important;
+}
+
+.dropdown-menu[data-bs-popper] {
+    top: 100%;
+    left: -70px !important;
+    margin-top: 0.125rem;
+}
